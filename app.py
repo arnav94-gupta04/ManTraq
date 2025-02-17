@@ -359,7 +359,7 @@ def main():
     # After login, the menu changes based on role.
     if st.session_state.logged_in:
         if st.session_state.role == "CEO":
-            menu = ["Dashboard", "Register Employee", "Register Client", "Assign Employee", "Search Employee", "Search Client", "Financial Plots", "View All Attendance","NLP mode (Upcoming)", "Logout"]
+            menu = ["Dashboard", "Register Employee", "Register Client", "Assign Employee", "Search Employee", "Search Client", "Financial Plots", "View All Attendance", "Record Installment", "NLP model (Upcoming)", "Logout"]
         else:
             menu = ["Profile", "Logout"]
 
